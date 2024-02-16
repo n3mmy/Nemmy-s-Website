@@ -3,6 +3,8 @@ import { Button } from '../components/Button';
 export default function Home() {
   return (
     <> <nav>
+        <title>Nemmy&#039;s Website</title>
+        <meta name="description" content="Nemmy&#039;s Website." />
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
@@ -13,11 +15,12 @@ export default function Home() {
                 <li><a href="#t">Top</a></li>
                 <li><a href="#s">Skill</a></li>
                 <li><a href="#a">About</a></li>
+                <li><a href="https://blog.n-m-y.jp">Blog</a></li>
               </ul>
             </div>
           </div>
           <div className="navbar-center">
-            <a className="btn btn-ghost text-xl">Nemmy's Website</a>
+            <a className="btn btn-ghost text-xl">Nemmy&#039;s Website</a>
           </div>
           <div className="navbar-end">
             <ul className="menu menu-horizontal px-1">
