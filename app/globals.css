@@ -37,6 +37,10 @@ p {
   text-align: center;
 }
 
+.p100 {
+  width: 100%;
+}
+
 
 .child {
   margin: 0 auto;
